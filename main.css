@@ -55,11 +55,21 @@ img {
   vertical-align: middle;
 }
 
+.button__big {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+  background-color: #ff9d00;
+  border: none;
+  color: #ffffff;
+}
+
 .main {
   position: relative;
   padding-top: 65px;
   padding-bottom: 60px;
   background: #373737 url(../img/background.png) center no-repeat;
+  background-size: cover;
   color: #ffffff;
   z-index: 1;
 }
@@ -102,5 +112,40 @@ img {
 .main-text__subtitle {
   font-size: 28px;
   font-weight: 300;
+}
+
+.main-text__form {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 30px 27px;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.form-title {
+  margin-bottom: 20px;
+  padding-right: 87px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.form-title__important {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.form__input {
+  margin-right: 10px;
+  border-radius: 4px;
+  border: none;
+  padding: 15px;
+  vertical-align: middle;
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
 }
 /*# sourceMappingURL=main.css.map */
